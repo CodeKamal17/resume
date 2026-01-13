@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamal Thapa - Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Action Buttons -->
+    <div class="button-container no-print">
+        <button class="action-button secondary" onclick="document.getElementById('photoUpload').click()">
+            📷 Photo
+        </button>
+        <button class="action-button" onclick="window.print()">
+            📄 Save PDF
+        </button>
+    </div>
+
+    <!-- Hidden Photo Upload Input -->
+    <input type="file" id="photoUpload" accept="image/*">
+
+    <div class="resume-container">
+        <!-- COMPACT HEADER -->
+        <div class="resume-header">
+            <div class="header-content">
+                <!-- Photo Container -->
+                <div class="photo-container no-photo" id="photoContainer">
+                    <img src="" alt="Profile Photo" class="profile-photo" id="profilePhoto">
+                </div>
+
+                <!-- Header Text -->
+                <div class="header-text">
+                    <h1>KAMAL THAPA</h1>
+                    <div class="title">Aspiring Full Stack Developer • Computer Science Student</div>
+
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="icon">✉</span>
+                            <a href="mailto:kamalsoftworks@gmail.com">kamalsoftworks@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">📱</span>
+                            <span>+977-9766240150</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">🔗</span>
+                            <a href="https://linkedin.com/in/kamalthapa">linkedin.com/in/kamalthapa</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">💻</span>
+                            <a href="https://github.com/kamalthapa">github.com/kamalthapa</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">📍</span>
+                            <span>Kathmandu, Nepal</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TWO-COLUMN CONTENT -->
+        <div class="resume-content">
+
+            <!-- LEFT COLUMN -->
+            <div class="left-column">
+
+                <!-- Education -->
+                <div class="section">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education-item">
+                        <h3>Bachelor's in IT Engineering</h3>
+                        <div class="school">National College of IT</div>
+                        <div class="year">2025 - 2029 (Expected)</div>
+                        <p>Relevant: Data Structures, Web Tech, OOP</p>
+                    </div>
+
+                    <div class="education-item">
+                        <h3>+2 Science</h3>
+                        <div class="school">Urbana School of Science</div>
+                        <div class="year">Completed 2025</div>
+                        <p>Mathematics, Computer Science, Physics</p>
+                    </div>
+
+                    <div class="education-item">
+                        <h3>SEE</h3>
+                        <div class="school">Gorkha Model Sec. School</div>
+                        <div class="year">Completed 2023</div>
+                    </div>
+                </div>
+
+                <!-- Technical Skills -->
+                <div class="section">
+                    <h2 class="section-title">Technical Skills</h2>
+
+                    <div class="skill-category">
+                        <h4>💻 Web Development</h4>
+                        <div class="skill-list">
+                            <div class="skill-item-simple">
+                                <span class="bullet">●</span>
+                                <span>HTML5 - Intermediate</span>
+                            </div>
+                            <div class="skill-item-simple">
+                                <span class="bullet">●</span>
+                                <span>CSS3 - Basic</span>
+                            </div>
+                            <div class="skill-item-simple">
+                                <span class="bullet">●</span>
+                                <span>JavaScript - Beginner</span>
+                            </div>
+                            <div class="skill-item-simple">
+                                <span class="bullet">●</span>
+                                <span>Git & GitHub - Basic</span>
+                            </div>
+                            <div class="skill-item-simple">
+                                <span class="bullet">●</span>
+                                <span>Responsive Design</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>🎨 Design Tools</h4>
+                        <div class="skill-list">
+                            <div class="skill-item-simple">
+                                <span class="bullet">●</span>
+                                <span>Canva - Intermediate</span>
+                            </div>
+                            <div class="skill-item-simple">
+                                <span class="bullet">●</span>
+                                <span>Photoshop - Basic</span>
+                            </div>
+                            <div class="skill-item-simple">
+                                <span class="bullet">●</span>
+                                <span>Figma - Learning</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>🚀 Soft Skills</h4>
+                        <div class="skill-list">
+                            <div class="skill-item-simple">
+                                <span class="bullet">●</span>
+                                <span>Quick Learner</span>
+                            </div>
+                            <div class="skill-item-simple">
+                                <span class="bullet">●</span>
+                                <span>Problem Solving</span>
+                            </div>
+                            <div class="skill-item-simple">
+                                <span class="bullet">●</span>
+                                <span>Team Collaboration</span>
+                            </div>
+                            <div class="skill-item-simple">
+                                <span class="bullet">●</span>
+                                <span>Self-Motivated</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Currently Learning -->
+                <div class="section">
+                    <h2 class="section-title">Currently Learning</h2>
+                    <div class="learning-grid">
+                        <div class="learning-item">⚛️ React.js</div>
+                        <div class="learning-item">🟢 Node.js</div>
+                        <div class="learning-item">🗄️ SQL</div>
+                        <div class="learning-item">🎨 UI/UX</div>
+                    </div>
+                </div>
+
+                <!-- Languages -->
+                <div class="section">
+                    <h2 class="section-title">Languages</h2>
+                    <div class="lang-list">
+                        <div class="lang-item">• English (Fluent)</div>
+                        <div class="lang-item">• Nepali (Native)</div>
+                        <div class="lang-item">• Hindi (Conversational)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="right-column">
+
+                <!-- Career Objective -->
+                <div class="section">
+                    <h2 class="section-title">Career Objective</h2>
+                    <p class="objective-text">
+                        Motivated IT Engineering student passionate about web development and software engineering.
+                        Currently learning HTML, CSS, and JavaScript to build foundation in full stack development.
+                        Eager to apply theoretical knowledge through hands-on projects and internship opportunities.
+                    </p>
+                </div>
+
+                <!-- Projects -->
+                <div class="section">
+                    <h2 class="section-title">Projects</h2>
+
+                    <div class="project-item">
+                        <h3>Personal Portfolio Website</h3>
+                        <div class="project-meta">HTML, CSS, JavaScript | Jan 2025</div>
+                        <p>Built responsive portfolio showcasing skills and learning journey.</p>
+                        <ul>
+                            <li>Designed and coded from scratch using HTML5 & CSS3</li>
+                            <li>Implemented JavaScript for interactive elements</li>
+                            <li>Made fully responsive for all devices</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-item">
+                        <h3>Simple Calculator Web App</h3>
+                        <div class="project-meta">HTML, CSS, JavaScript | Dec 2024</div>
+                        <p>Created functional calculator to practice JavaScript fundamentals.</p>
+                        <ul>
+                            <li>Implemented basic arithmetic operations</li>
+                            <li>Used event listeners and DOM manipulation</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-item">
+                        <h3>Responsive Landing Page</h3>
+                        <div class="project-meta">HTML, CSS | Nov 2024</div>
+                        <p>Designed landing page to practice layout techniques and responsive design.</p>
+                    </div>
+                </div>
+
+                <!-- Achievements & Activities -->
+                <div class="section">
+                    <h2 class="section-title">Achievements & Activities</h2>
+                    <ul class="activity-list">
+                        <li><strong>Web Design Competition</strong> - 1st place (2023)</li>
+                        <li><strong>Coding Club</strong> - Active member, participate in challenges</li>
+                        <li><strong>Online Learning</strong> - Completed web dev tutorials on freeCodeCamp</li>
+                        <li><strong>Volunteer</strong> - Design graphics for college events using Canva</li>
+                    </ul>
+                </div>
+
+                <!-- Career Goals -->
+                <div class="section">
+                    <h2 class="section-title">Career Goals</h2>
+                    <ul class="activity-list">
+                        <li>Secure internship in web development</li>
+                        <li>Master MERN stack within 2 years</li>
+                        <li>Contribute to open-source projects</li>
+                        <li>Build strong portfolio of projects</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
